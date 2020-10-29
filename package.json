@@ -1,0 +1,21 @@
+{
+  "name": "wordnet",
+  "version": "0.0.1",
+  "description": "A simple wordnet api example - using local sqlite db.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "sqlite3": "^4.2.0",
+    "sqlstring": "^2.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
